@@ -1,0 +1,100 @@
+/* Configurações das Listas */
+.list {
+    width: 300px;
+    min-height: 500px;
+    max-height: 82vh;
+    background-color: #FEE884;
+    margin: 15px;
+    margin-top: 20px;
+    
+    border-style: solid;
+    border-color: #DCB91C;
+    border-width: 2px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+    border-radius: 30px;
+}
+
+.list-header {
+    width: 300px;
+    height: 60px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: -2px;
+    margin-left: -2px;
+    border-radius: 30px 30px 0px 0px;
+
+    font-size: 22px;
+    border-style: solid;
+    border-color: #DCB91C;
+    border-width: 2px;
+    background-color: red;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/*Botoes das Listas*/
+.list-actions {
+    display: flex;
+}
+
+/*Botao de Editar*/
+.edit-button-list {
+    background-color: transparent;
+    border: none;
+    width: 23px;
+    margin: 7px;
+    margin-top: -8px;
+}
+
+.edit-button-list img{
+    width: 100%;
+    -webkit-filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, .2));
+}
+
+/*Botao de Adicionar*/
+.add-button-list {
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    margin: 7px;
+    margin-top: -8px;
+}
+
+.add-button-list img{
+    width: 100%;
+    -webkit-filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, .2));
+}
+
+/*Botao de Remover*/
+.del-button-list {
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    margin: 7px;
+    margin-top: -15px;
+    margin-right: 0;
+}
+
+.del-button-list img{
+    width: 100%;
+    -webkit-filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, .2));
+}
+
+/*Configuração do Container das Listas*/
+.tasks-container {
+    height: 70vh;
+    border-radius: 35px;
+    overflow-y: auto;
+}
+
+/*Trabalho Concluido*/
+.done-percent{
+    margin-right: 0px;
+    width: 95%;
+    text-align: right;
+    font-size: 2vh;
+    
+}

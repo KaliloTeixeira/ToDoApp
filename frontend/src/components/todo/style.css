@@ -1,0 +1,79 @@
+/*Configs PopUP para adicionar nova lista*/
+.popup-component {
+    width: 50vw;
+    max-width: 900px;
+    min-width: 350px;
+    height: 30vw;
+    min-height: 430px;
+    max-height: 450px;
+    position: absolute; /* adicionamos essa linha e as 3 seguintes */
+    left: 50%;
+    top: 50%; 
+    transform: translateX(-50%) translateY(-50%);
+
+    border-radius: 30px;
+    background-color: rgba(75, 210, 225, 0.8);
+}
+
+/*Botao de Fechar Popup*/
+.close-popup {
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-right: 3%;
+    background-color: transparent;
+    border: none;
+    opacity: 0.6;
+    transition-duration: 400ms;
+}
+
+.close-popup:hover {
+    opacity: 1;
+}
+
+/*Titulo*/
+.forms-container h1 {
+    margin-top: 1vh;
+    text-align: center;
+}
+
+.forms-container {
+    text-align: center;
+    font-size: 3vh;
+}
+
+.forms-container input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.forms-container #description {
+    width: 80vw;
+    min-width:300px;
+    max-width: 500px;
+    padding-left: 15px;
+    background-color: rgb(23, 190, 207);
+    border: none;
+    border-radius: 0, 3, 6;
+    border-radius: 50px 50px 50px 50px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    font-size: 3vh;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .1);
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, .1);
+}
+
+.color-options-container{
+    width: 100%;
+}
+
+.create-btn{
+    width: 10vw;
+    min-width: 250px;
+    font-size: 4vh;
+    background: rgb(23, 190, 207);
+    border-color: rgb(105, 243, 255);
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .1);
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, .1);
+}

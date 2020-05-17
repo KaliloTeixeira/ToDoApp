@@ -1,0 +1,269 @@
+/*Container da Pagina Home*/
+.home-container {
+    background-color: #FFD829;
+    width: 100%;
+    height: 20vh;
+    margin:0 auto;
+}
+
+/*Configurações do Header - Menu*/
+.menu{
+    width: 100%;
+    font-size: 4vh;
+    position: fixed;
+}
+
+.menu #logo {
+    padding-top: 0;
+}
+
+.menu ul{
+    height: 20vh;
+    max-height: 150px;
+    max-width: 100%;
+    list-style: none;
+    display: flex;
+    background-color: #17BECF;
+    padding-top: 3vh;
+    text-align: center;
+}
+
+.menu ul li {
+    padding: 20px;
+    flex-grow: 1;
+    max-width: 20%;
+}
+
+.menu ul li img {
+    height: 15vh;
+    max-height: 100%;
+    padding-bottom: 1vh;
+    -webkit-filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, .5));
+}
+
+/*Configurações da Section Home*/
+.main-container {
+    background-color: #FFD829;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* Configurações do RGB + Botão*/
+#rgb-container{
+    display: flex;
+    position: absolute;
+    margin-top: 35vh;
+    width: 100vw;
+    min-width: 320px;
+    max-width: 65vw;
+    animation-name: pulse;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0%   {opacity: 0.04;}
+    25%  {opacity: 0.18;}
+    50%  {opacity: 0.25;}
+    75%  {opacity: 0.18;}
+    100% {opacity: 0.05;}
+  }
+
+#rgbImg{
+    width: 100%;
+    -webkit-filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, .5));
+}
+
+/* Configurações do Botão Experimentar*/
+#div-goto{
+    width: 25vw;
+    min-width: 250px;
+    height: 10vh;
+    min-height: 80px;
+}
+
+#btn-goto{
+    width: 100%;
+    height: 100%;
+    margin-top: 51vh;
+    float: none;
+    position: relative;
+}
+
+/*Configurações do Footer*/
+.footer{
+    background-color: #17BECF;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer div{
+    width: 200px;
+    height: 80px;
+    font-size: 4vh;
+    text-align: center;
+}
+
+#facebook, #twitter, #linkedin, #instagram{
+    padding-top: 20px;
+}
+
+.footer div #logoImg{
+    padding-top: 10px;
+    height: 80%;
+    -webkit-filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, .5));
+}
+
+/*Configuração da Seção de Vantagens*/
+.advantages-container {
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #FFD829;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+#advantages-header{
+    width: 100%;
+    height: 150px;
+    background-color: #17BECF;
+}
+
+#advantages-home{
+    opacity: 0;
+}
+
+#advantages-title {
+    background-color: #FFD829;
+    height: 30px;
+    text-align: center;
+    font-size: 5vh;
+    padding: 0;
+    padding-top: 3vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.advantage-box {
+    background-color: #FEE884;
+    width: 20vw;
+    min-width: 320px;
+    margin-top: 8vh;
+    margin-bottom: 10px;
+    height: 50vh;
+    border-radius: 30px;
+    padding: 35px;
+    padding-top: 60px;
+    
+
+}
+.advantage-box p {
+    text-align: center;
+    font-size: 4vh;
+}
+
+/*Configuração da Seção de Feedback*/
+.feedbacks-container {
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #FFD829;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feedbacks-header{
+    width: 100%;
+    height: 150px;
+    background-color: #17BECF;
+}
+
+
+#feedbacks-home{
+    opacity: 0;
+}
+
+#feedbacks-title {
+    background-color: #FFD829;
+    height: 30px;
+    text-align: center;
+    font-size: 5vh;
+    padding: 0;
+    padding-top: 3vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.feedback-box {
+    background-color: #FEE884;
+    width: 20vw;
+    min-width: 320px;
+    margin-top: 8vh;
+    margin-bottom: 10px;
+    height: 50vh;
+    border-radius: 30px;
+    padding: 35px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-box p {
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.feedback-box h1 {
+    text-align: right;
+    font-size: 20px;
+}
+
+/*Ajustes Responsividade*/
+@media (max-width: 520px){
+    .menu{
+        position: absolute;
+        font-size: 3vh;
+    }
+    .menu ul {
+        display: block;
+        height: 40vh;
+        max-height: 40%;
+    }
+    .menu ul li {
+        max-width: 100%;
+        padding: 2px;
+        padding-top: 0;
+    }
+    .main-container{
+        height: 100vh;
+    }
+    #rgb-container {
+        margin-top: 50vh;
+    }
+    #btn-goto {
+        margin-top: 70vh;
+    }
+    #advantages-header, #feedbacks-header{
+        height: 50px;
+    }
+    #advantages-home, #feedbacks-home{
+        opacity: 1;
+        list-style: none;
+        text-align: center;
+        font-size: 3vh;
+        padding-top: 1vh;
+    }
+    #feedbacks-title {
+        padding-bottom: 50px;
+    }
+    .footer div{
+        width: 100%;
+    }
+}
