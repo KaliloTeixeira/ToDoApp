@@ -7,14 +7,15 @@ My desire was to build not a simple to do list, but a functional and very beauti
 
 ## Here you can see the results...
 
+## :computer:
 <p align="center" > 
-    ## :computer:
     <img src="/_images/home-page.gif" width="600">
     <img src="/_images/to-do-page.PNG" width="600">
 </p>
 
+## ::iphone::
 <p align="center" > 
-    ## ::iphone::
+
     <img src="/_images/mob-home-page.gif" width="600">
     <img src="/_images/mob-to-do-page.PNG" width="300">
 </p>
