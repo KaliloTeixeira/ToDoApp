@@ -13,7 +13,7 @@ My desire was to build not a simple to do list, but a functional and very beauti
     <img src="/_images/to-do-page.PNG" width="600">
 </p>
 
-## ::iphone::
+## :iphone:
 <p align="center">
     <img src="/_images/mob-home-page.gif" width="600">
     <img src="/_images/mob-to-do-page.PNG" width="300">
